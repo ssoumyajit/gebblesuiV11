@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6, p {
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Poiret One',  cursive, sans-serif;
+    /* font-family: 'Sacramento', cursive; */
+}
+@font-face{
+  font-family: 'Poiret One',  cursive sans-serif !important;
+  src: url('Poiret_One/PoiretOne-Regular.ttf') format('truetype')
+}
+.v-application {
+  font-family: 'Poiret One',  cursive sans-serif !important;
+}
+/* h3, h4, h5, h6{
+  font-family: 'Poppins', sans-serif;
+} */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.4s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+.app{
+  background-color: #f0f2f5;
+}

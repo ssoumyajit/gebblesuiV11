@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Poiret One";
+    src: local("Poiret One"),
+     url(~assets/Poiret_One/PoiretOne-Regular.ttf) format("truetype");
+}
+
+html {
+    font-family: "Poiret One";
+}
